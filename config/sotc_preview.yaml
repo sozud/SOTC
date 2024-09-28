@@ -34,6 +34,7 @@ options:
     named_regs_for_c_funcs: True
     gp_value: 0x141e70
     find_file_boundaries: False
+    disassemble_all: True
     section_order: [".text", ".data", ".rodata", ".lit4", ".sdata", ".sbss", ".bss"]
 segments:
     - [0, databin, elf_header]
